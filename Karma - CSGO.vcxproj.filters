@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Karma - Internal">
+      <UniqueIdentifier>{89bdfe69-2e33-4a49-9b6f-7755deebe838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Karma - Internal\Cheat Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Karma - Internal\Cheat Files\Header">
+      <UniqueIdentifier>{754c6d7e-7b92-45e6-8b9a-404faa7ff0b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Karma - Internal\Cheat Files\Source">
+      <UniqueIdentifier>{3b39d0fa-69f1-42be-9378-7492869a16e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Karma - Internal\SDK">
+      <UniqueIdentifier>{3cf87b97-babb-441e-9145-87d25483e72a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Karma - Internal\SDK\Source">
+      <UniqueIdentifier>{049e4559-92b4-4cad-bdbb-4db53e9acc69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Karma - Internal\SDK\Header">
+      <UniqueIdentifier>{8d362bde-069f-469d-8ef8-8b05f44ae23d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Karma - Internal\Security">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Karma - Internal\Security\Header">
+      <UniqueIdentifier>{17bb7647-d845-4376-8711-9448ef250e02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Karma - Internal\Security\Source">
+      <UniqueIdentifier>{550ee9c3-2e7b-45e7-aec4-32ed11b3e376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Karma - Internal\Entry-Point">
+      <UniqueIdentifier>{fb5f6ed8-0780-4230-8981-30500c4e4819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Karma - Internal\Cheat Files\Header\Utillitys">
+      <UniqueIdentifier>{8f166939-0697-41fc-a340-276ca241b8db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Karma - Internal\Cheat Files\Source\Utillitys">
+      <UniqueIdentifier>{4bb27c54-efac-4355-82fa-9750eb0f5fd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Karma - Internal\SDK\Header\Intefaces">
+      <UniqueIdentifier>{25c696cc-15a2-49a8-abfc-d678e9998687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Karma - Internal\Cheat Files\Header\Hooks">
+      <UniqueIdentifier>{7b73881b-994a-4701-8665-69398d1bd0c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Karma - Internal\Cheat Files\Source\Hooks">
+      <UniqueIdentifier>{0f836311-70be-43ce-bc47-0bd2f8d4abcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Karma - Internal\Cheat Files\ImGui">
+      <UniqueIdentifier>{bb7b2837-8e39-4e96-80ea-038871b24898}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Karma - Internal\Cheat Files\Header\Cheats">
+      <UniqueIdentifier>{b1977f1f-aa26-413c-b970-fd80e6993c43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Karma - Internal\Cheat Files\Source\Cheats">
+      <UniqueIdentifier>{4b951009-ed29-458d-acb5-474cceea6a28}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EntryPoint.cpp">
+      <Filter>Karma - Internal\Entry-Point</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc.cpp">
+      <Filter>Karma - Internal\Cheat Files\Source\Utillitys</Filter>
+    </ClCompile>
+    <ClCompile Include="HWID.cpp">
+      <Filter>Karma - Internal\Security\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FindPattern.cpp">
+      <Filter>Karma - Internal\SDK\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="netvars.cpp">
+      <Filter>Karma - Internal\SDK\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="offsets.cpp">
+      <Filter>Karma - Internal\SDK\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ConVar.cpp">
+      <Filter>Karma - Internal\SDK\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseEntity.cpp">
+      <Filter>Karma - Internal\SDK\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="IMaterialSystem.cpp">
+      <Filter>Karma - Internal\SDK\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="IInputSystem.cpp">
+      <Filter>Karma - Internal\SDK\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="IBaseClientDLL.cpp">
+      <Filter>Karma - Internal\SDK\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="IVModelRender.cpp">
+      <Filter>Karma - Internal\SDK\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="IVPanel.cpp">
+      <Filter>Karma - Internal\SDK\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="IPhysicsSurfaceProps.cpp">
+      <Filter>Karma - Internal\SDK\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ISurface.cpp">
+      <Filter>Karma - Internal\SDK\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Interfaces.cpp">
+      <Filter>Karma - Internal\SDK\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Karma - Internal\SDK\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw.cpp">
+      <Filter>Karma - Internal\SDK\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals.cpp">
+      <Filter>Karma - Internal\Cheat Files\Source\Utillitys</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Karma - Internal\Cheat Files\Source\Utillitys</Filter>
+    </ClCompile>
+    <ClCompile Include="Painttraverse.cpp">
+      <Filter>Karma - Internal\Cheat Files\Source\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateMove.cpp">
+      <Filter>Karma - Internal\Cheat Files\Source\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelRender.cpp">
+      <Filter>Karma - Internal\Cheat Files\Source\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>Karma - Internal\Cheat Files\Source\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_demo.cpp">
+      <Filter>Karma - Internal\Cheat Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_draw.cpp">
+      <Filter>Karma - Internal\Cheat Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui.cpp">
+      <Filter>Karma - Internal\Cheat Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\DX9\imgui_impl_dx9.cpp">
+      <Filter>Karma - Internal\Cheat Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Karma - Internal\Cheat Files\Source\Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="Legit.cpp">
+      <Filter>Karma - Internal\Cheat Files\Source\Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="Rage.cpp">
+      <Filter>Karma - Internal\Cheat Files\Source\Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="Visuals.cpp">
+      <Filter>Karma - Internal\Cheat Files\Source\Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="Accessors.cpp">
+      <Filter>Karma - Internal\Cheat Files\Source\Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="Autowall.cpp">
+      <Filter>Karma - Internal\Cheat Files\Source\Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Karma - Internal\SDK\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Karma - Internal\Cheat Files\Source\Utillitys</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameStageNotify.cpp">
+      <Filter>Karma - Internal\Cheat Files\Source\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="FireEventClientSide.cpp">
+      <Filter>Karma - Internal\Cheat Files\Source\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinColors.cpp">
+      <Filter>Karma - Internal\Cheat Files\Source\Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="base64.cpp">
+      <Filter>Karma - Internal\Security\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="IRC.cpp">
+      <Filter>Karma - Internal\Cheat Files\Source\Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="OverrideView.cpp">
+      <Filter>Karma - Internal\Cheat Files\Source\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaySound.cpp">
+      <Filter>Karma - Internal\Cheat Files\Source\Hooks</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shared.h">
+      <Filter>Karma - Internal\Cheat Files\Header\Utillitys</Filter>
+    </ClInclude>
+    <ClInclude Include="Xor.h">
+      <Filter>Karma - Internal\Security\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="HWID.h">
+      <Filter>Karma - Internal\Security\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleSec.h">
+      <Filter>Karma - Internal\Security\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.h">
+      <Filter>Karma - Internal\Cheat Files\Header\Utillitys</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>Karma - Internal\SDK\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="VMTHooks.h">
+      <Filter>Karma - Internal\SDK\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FindPattern.h">
+      <Filter>Karma - Internal\SDK\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="netvars.h">
+      <Filter>Karma - Internal\SDK\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>Karma - Internal\SDK\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Convar.h">
+      <Filter>Karma - Internal\SDK\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseEntity.h">
+      <Filter>Karma - Internal\SDK\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Trace.h">
+      <Filter>Karma - Internal\SDK\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces.h">
+      <Filter>Karma - Internal\SDK\Header\Intefaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IEngineTrace.h">
+      <Filter>Karma - Internal\SDK\Header\Intefaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IGlobalVarsBase.h">
+      <Filter>Karma - Internal\SDK\Header\Intefaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IInputSystem.h">
+      <Filter>Karma - Internal\SDK\Header\Intefaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IMaterial.h">
+      <Filter>Karma - Internal\SDK\Header\Intefaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IMaterialSystem.h">
+      <Filter>Karma - Internal\SDK\Header\Intefaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IBaseClientDLL.h">
+      <Filter>Karma - Internal\SDK\Header\Intefaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientEntityList.h">
+      <Filter>Karma - Internal\SDK\Header\Intefaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IClientModeShared.h">
+      <Filter>Karma - Internal\SDK\Header\Intefaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ICvar.h">
+      <Filter>Karma - Internal\SDK\Header\Intefaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IEngineClient.h">
+      <Filter>Karma - Internal\SDK\Header\Intefaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IPrediction.h">
+      <Filter>Karma - Internal\SDK\Header\Intefaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IRenderView.h">
+      <Filter>Karma - Internal\SDK\Header\Intefaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IStudioRender.h">
+      <Filter>Karma - Internal\SDK\Header\Intefaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ISurface.h">
+      <Filter>Karma - Internal\SDK\Header\Intefaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IVDebugOverlay.h">
+      <Filter>Karma - Internal\SDK\Header\Intefaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IVModelInfo.h">
+      <Filter>Karma - Internal\SDK\Header\Intefaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IVModelRender.h">
+      <Filter>Karma - Internal\SDK\Header\Intefaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IVPanel.h">
+      <Filter>Karma - Internal\SDK\Header\Intefaces</Filter>
+    </ClInclude>
+    <ClInclude Include="VPhysics.h">
+      <Filter>Karma - Internal\SDK\Header\Intefaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Karma - Internal\SDK\Header\Intefaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Angles.h">
+      <Filter>Karma - Internal\SDK\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw.h">
+      <Filter>Karma - Internal\SDK\Header\Intefaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Karma - Internal\SDK\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Karma - Internal\Cheat Files\Header\Utillitys</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Karma - Internal\Cheat Files\Header\Utillitys</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.h">
+      <Filter>Karma - Internal\Cheat Files\Header\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Options.h">
+      <Filter>Karma - Internal\Cheat Files\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\stb_textedit.h">
+      <Filter>Karma - Internal\Cheat Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\stb_truetype.h">
+      <Filter>Karma - Internal\Cheat Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\stb_rect_pack.h">
+      <Filter>Karma - Internal\Cheat Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui_internal.h">
+      <Filter>Karma - Internal\Cheat Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imconfig.h">
+      <Filter>Karma - Internal\Cheat Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui.h">
+      <Filter>Karma - Internal\Cheat Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\DX9\imgui_impl_dx9.h">
+      <Filter>Karma - Internal\Cheat Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheats.h">
+      <Filter>Karma - Internal\Cheat Files\Header\Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="Accessors.h">
+      <Filter>Karma - Internal\Cheat Files\Header\Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Karma - Internal\SDK\Header\Intefaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Karma - Internal\Cheat Files\Header\Utillitys</Filter>
+    </ClInclude>
+    <ClInclude Include="IRC.h">
+      <Filter>Karma - Internal\Cheat Files\Header\Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects.h">
+      <Filter>Karma - Internal\SDK\Header\Intefaces</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

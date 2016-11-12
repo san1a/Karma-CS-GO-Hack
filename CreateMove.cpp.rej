@@ -1,0 +1,10 @@
+diff a/Karma - CSGO/CreateMove.cpp b/Karma - CSGO/CreateMove.cpp	(rejected hunks)
+@@ -77,6 +77,8 @@
+ 	if (!moveHelper)return;
+ 	g_pMoveHelper = reinterpret_cast<CMoveHelper*>(moveHelper);
+ }
++
++
+ TraceRayFn oTraceRay;
+ void __fastcall Game::TraceRayhk(void* ecx, void* edx, Ray_t& ray, UINT mask, CTraceFilter* filter, trace_t& trace)
+ {

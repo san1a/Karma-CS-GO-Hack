@@ -1,0 +1,16 @@
+#pragma once
+#include "Common.h"
+#include "VMTHooks.h"
+#include "netvars.h"
+#include "FindPattern.h"
+#include "offsets.h"
+#include "Angles.h"
+#include "Convar.h"
+#include "CBaseEntity.h"
+#include "Trace.h"
+#include "Util.h"
+#include "Interfaces.h"
+#include "Math.h"
+#include "draw.h"
+#include "Effects.h"
+
